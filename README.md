@@ -115,5 +115,5 @@ Ramas:
 **IRVING ISAY PINEDA PINEDA**
 - https://github.com/IRVINGPINEDA
 
-**FERNANDO URIEL LEOCADIO RODRIGUEZ**
+**JOSHUA MEDINA**
 - https://github.com/goku58432
