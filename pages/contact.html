@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact us — Consultoría Nova</title>
+    <meta name="description" content="Ponte en contacto con Consultoría Nova." />
+    <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script defer src="../assets/js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Ir al inicio">
+          <img class="brand-mark" src="../assets/img/logo.svg" alt="" width="28" height="28" />
+          <span class="brand-name" data-setting="companyName">Consultoría Nova</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-nav" data-nav>
+          <a href="mv.html">Misión &amp; Visión</a>
+          <a href="about.html">About us</a>
+          <a href="projects.html">Projects</a>
+          <a href="services.html">Services</a>
+          <a aria-current="page" class="cta" href="contact.html">Contact us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="page-hero">
+        <div class="container">
+          <h1>Contact us</h1>
+          <p class="lead">Cuéntanos tu reto. Respondemos en 24–48 horas hábiles.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid-2">
+          <div class="card big">
+            <h2>Información</h2>
+            <p class="muted">Este formulario envía el mensaje al servidor (base de datos) cuando está desplegado.</p>
+            <div class="contact-cards">
+              <div class="mini-card">
+                <p class="mini-title">Email</p>
+                <a data-setting="contactEmail" data-setting-href="mailto:contactEmail" href="mailto:hola@consultorianova.example"
+                  >hola@consultorianova.example</a
+                >
+              </div>
+              <div class="mini-card">
+                <p class="mini-title">Teléfono</p>
+                <a data-setting="contactPhone" data-setting-href="tel:contactPhone" href="tel:+10000000000"
+                  >+1 (000) 000-0000</a
+                >
+              </div>
+              <div class="mini-card">
+                <p class="mini-title">Horario</p>
+                <p class="muted">Lun–Vie · 9:00–18:00</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="card big form" data-contact-form>
+            <h2>Mensaje</h2>
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="empresa">Empresa</label>
+              <input id="empresa" name="empresa" autocomplete="organization" />
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button class="button primary" type="submit">Enviar</button>
+            <p class="form-hint muted">
+              Alternativa rápida:
+              <a data-setting-href="mailto:contactEmail" href="mailto:hola@consultorianova.example">enviar por correo</a>.
+            </p>
+            <div class="toast" role="status" aria-live="polite" hidden data-toast></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <img class="brand-mark" src="../assets/img/logo.svg" alt="" width="28" height="28" />
+            <span class="brand-name" data-setting="companyName">Consultoría Nova</span>
+          </div>
+          <p class="muted">Estrategia, datos y operaciones para organizaciones que quieren resultados visibles.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mv.html">Misión &amp; Visión</a>
+          <a href="about.html">About us</a>
+          <a href="projects.html">Projects</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact us</a>
+        </div>
+        <div>
+          <p class="muted">Contacto</p>
+          <p class="footer-contact">
+            <a data-setting="contactEmail" data-setting-href="mailto:contactEmail" href="mailto:hola@consultorianova.example"
+              >hola@consultorianova.example</a
+            ><br />
+            <a data-setting="contactPhone" data-setting-href="tel:contactPhone" href="tel:+10000000000"
+              >+1 (000) 000-0000</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="muted">© <span data-year></span> Consultoría Nova. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

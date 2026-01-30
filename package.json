@@ -1,0 +1,18 @@
+{
+  "name": "consultoria-nova",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sitio web de consultoría con panel y base de datos (Node + Express + SQLite).",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.6.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
+
