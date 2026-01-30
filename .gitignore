@@ -1,0 +1,5 @@
+server/data/app.db
+server/data/*.db
+node_modules/
+.env
+
