@@ -91,20 +91,11 @@ Ramas:
 
 `npm install`
 
-2) (Opcional) Inicializar datos demo (usuarios/settings/proyectos):
-
-`npm run seed`
-
-Credenciales demo (si ejecutas el seed):
-- `admin1@demo.local` / `Admin1!123`
-- `admin2@demo.local` / `Admin2!123`
-- `cliente@demo.local` / `Cliente!123`
-
-3) Levantar el servidor:
+2) Levantar el servidor:
 
 `npm start`
 
-4) Abrir en el navegador:
+3) Abrir en el navegador:
 - `http://localhost:3000`
 - Healthcheck: `http://localhost:3000/api/health`
 
